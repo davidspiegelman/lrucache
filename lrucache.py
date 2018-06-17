@@ -47,7 +47,7 @@ class LRUCache:
         return i
         
     def __str__(self):
-        return str([x for t in zip(self.keys, self.values, self.ages) for x in t]) 
+        return str(tuple(zip(self.keys, self.values, self.ages))) 
         
         
 
