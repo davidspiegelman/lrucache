@@ -8,7 +8,7 @@ class LRUCache:
         self.age = 0
         self.keys = [None] * capacity
         self.values = [None] * capacity
-        self.ages = list(range(-1 * capacity, 0)) 
+        self.ages = list(range(-capacity, 0)) 
 
     def get(self, key):
         i = self.__findKey(key)
