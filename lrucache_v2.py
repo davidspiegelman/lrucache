@@ -4,7 +4,6 @@ class LRUCache:
        email: david94609@gmail.com '''
 
     def __init__(self, capacity):
-        self.capacity = capacity
         self.age = 0
         self.keys = [None] * capacity
         self.values = [None] * capacity
