@@ -22,11 +22,9 @@ class LRUCache:
         i = self.__findKey(key)
         if i == -1:
             i, age = 0, self.ages[0]
-            
             for x, v in enumerate(self.ages[1:], start=1):
                 if v < age:
                     i, age = x, v
-                
             self.keys[i] = key
                 
         self.values[i] = value
