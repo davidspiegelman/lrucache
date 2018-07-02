@@ -11,3 +11,5 @@ v3 - the cache is contained within one list instead of parallel lists
 v4 - uses a list of dictionaries
 
 v5 - similar to v4 but more concise
+
+v6 - a single ordered dictionary
