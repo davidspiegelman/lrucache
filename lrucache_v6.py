@@ -28,7 +28,7 @@ class LRUCache:
         self.slots[key] = value            
         
     def __str__(self):
-        return str(list(self.slots.items())) 
+        return str(self.slots)
         
         
 
